@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.intro h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #868e96;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  height: 120vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #bc2bff, #7249fb);
+}
+
+/* ///////////////////////////////////NAVBAR STARTS HERE/////////////////////////////////// */
+
+.navbar {
+  /* background-image: linear-gradient(to right, #bc2bff, #7249fb); */
+  /* box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%); */
+  padding-top: 1.7rem !important;
+}
+
+.nav-item {
+  margin-right: 3.5rem;
+}
+
+.nav-item:last-child {
+  margin-right: 0px;
+}
+
+.nav-link {
+  color: var(--white) !important;
+  font-size: 1.2rem !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+
+/* /////////////////////////////////////////////HERO SECTION STARTS//////////////////////////////////// */
+.hero {
+  padding-top: 8rem;
+  /* background-image: linear-gradient(to right, #bc2bff, #7249fb); */
+}
+
+.hero-left {
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.hero-left h2 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-top: -9rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-left p {
+  font-size: 1.4rem;
+  max-width: 45rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner-btn {
+  color: #000 !important;
+  height: 5rem;
+  width: 18rem;
+  text-decoration: none;
+  background-color: var(--white);
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  transition: 0.2s linear;
+}
+
+.banner-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* /////////////////////////////////////////////HERO SECTION ENDS//////////////////////////////////// */
+
+/* ---------------------------------Features STarts here------------------------------------- */
+
+.features {
+  margin: 10rem 0;
+}
+
+.feature-row {
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.intro {
+  margin-bottom: 8rem;
+}
+
+.main-heading {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.para {
+  text-align: center;
+  max-width: 570px;
+  margin: auto;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+.feature_1 {
+  background: var(--light);
+  padding: 5rem 2rem;
+  cursor: pointer;
+}
+
+.feature_1:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feature_1 img {
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.feature_1 h2 {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.feature_1 p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+/* /////////////////////////Features ENds Here//////////////////////////////////////////////////// */
+
+/* ////////////////INTERIOR STARTS HERE////////////////////////////////// */
+
+.interior {
+  background: var(--light);
+  padding: 10rem 0;
+}
+
+.interior2 {
+  padding: 10rem 0;
+}
+
+.int_right {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12rem;
+}
+
+.int_right .para1 {
+  max-width: 570px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+.int_right .main-heading {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.r-int {
+  width: 50% !important;
+}
+
+.btn-2 {
+  width: 16rem;
+  margin-top: 1rem;
+  height: 5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #bc2bff, #7249fb);
+  border: none;
+  color: white;
+  transition: 0.5s linear;
+}
+
+.btn-2:hover {
+  background-image: linear-gradient(to right, #7249fb, #bc2bff);
+}
+
+.int_left2 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12rem;
+}
+
+.int_left2 .para1 {
+  max-width: 570px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+.int_left2 .main-heading {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.int_right2 {
+  margin-left: 9rem;
+}
+
+/* ////////////////INTERIOR ENDSS HERE////////////////////////////////// */
+/* ////////////////VIDEO SECTION STARTS HERE////////////////////////////////// */
+
+.video {
+  height: 80vh;
+  width: 100%;
+}
+
+.popup-youtube {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ////////////////VIDEO SECTION ENDS HERE////////////////////////////////// */
+
+/* ////////////////Pricing SECTION STARTS HERE////////////////////////////////// */
+.pricing {
+  background: var(--light);
+  padding: 10rem 0;
+  font-family: sans-serif;
+}
+
+.p-col1 {
+  background-color: var(--white);
+  flex-basis: 31% !important;
+  padding: 3rem 4rem !important;
+}
+
+.pricing_row {
+  display: flex;
+  gap: 1.3rem;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.name h2 {
+  font-weight: 400;
+  font-size: 2.7rem;
+}
+
+.name p {
+  color: var(--gray);
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.package {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.lists {
+  margin-top: 3rem;
+  padding-left: 0;
+}
+
+.lists li {
+  text-align: center;
+  margin: 1.5rem auto;
+  color: var(--gray);
+  font-size: 1.4rem;
+}
+
+.btn-purchase {
+  padding: 1.5rem 5rem;
+  display: block;
+  margin: auto;
+  border: 1px solid #dddddd;
+  margin-top: 4rem;
+  font-size: 1.3rem;
+  background-color: var(--light);
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.btn-purchase:hover {
+  color: white;
+  background-image: linear-gradient(to right, #bc2bff, #7249fb);
+}
+
+/* ////////////////Pricing SECTION ENDS HERE////////////////////////////////// */
+
+/* ////////////////Screenshot SECTION STARTS HERE////////////////////////////////// */
+.ss {
+  margin: 10rem 0;
+}
+
+.ss-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* ////////////////Screenshot SECTION ENDS HERE////////////////////////////////// */
+/* ////////////////Testimonials SECTION STartS HERE////////////////////////////////// */
+.reviews {
+  background-color: var(--light);
+  margin-top: 10rem;
+  padding: 10rem 0;
+}
+
+.review-row {
+  justify-content: space-between;
+}
+
+.testimonial {
+  display: flex;
+  width: 49% !important;
+  background: var(--white);
+  padding: 3rem 2rem !important;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.fig {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: flex-start;
+}
+
+.person_intro {
+  width: 80%;
+}
+
+.person_intro p {
+  max-width: 570px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--gray);
+}
+
+.person_intro h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.testimonial:hover {
+  color: var(--purple);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* ////////////////Testimonials SECTION ENDS HERE////////////////////////////////// */
+/* ////////////////Downloads SECTION STARTS HERE////////////////////////////////// */
+.downloads {
+  background-image: linear-gradient(to right, #bc2bff, #7249fb);
+  padding: 10rem 0;
+}
+
+.d-into {
+  margin-bottom: 4rem;
+}
+
+.d-into h1 {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.d-into p {
+  max-width: 850px;
+  color: var(--white);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.appstore {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  gap: 2rem;
+  border: 1px solid var(--white);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.d-logo {
+  font-size: 4rem;
+  width: 30%;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+  padding-top: 7px;
+}
+
+.app h4 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app p {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.appstore:hover {
+  color: #fff !important;
+  background-image: linear-gradient(to right, #bc2bff, #7249fb);
+}
+
+/* ////////////////Downloads SECTION ENDS HERE////////////////////////////////// */
+/* ////////////////News SECTION STARTS HERE////////////////////////////////// */
+.news {
+  margin: 10rem 0;
+  height: 100vh;
+}
+
+.news-col {
+  padding: 4rem;
+}
+
+.news-col a {
+  font-size: 1rem;
+  display: block;
+  margin: 2rem 0;
+  text-decoration: none;
+}
+
+.news-col h1 {
+  margin-bottom: 2rem;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.news-col p {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777777;
+}
+
+.news-row {
+  height: 80%;
+  justify-content: space-between;
+}
+
+.news-col {
+  background: var(--light);
+  width: 32% !important;
+}
+
+.social-icons {
+  display: flex;
+  gap: 4rem;
+}
+/* ////////////////News SECTION ENDS HERE////////////////////////////////// */

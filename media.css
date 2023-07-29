@@ -1,0 +1,127 @@
+/* /////////////////////////////////////////////MEDIA QURIES//////////////////////////////////// */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .hero-left h2 {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  .r-int {
+    width: 100% !important;
+  }
+  .int_right {
+    margin-left: 0;
+  }
+  .int_right {
+    align-items: baseline;
+  }
+
+  .pricing_row {
+    flex-direction: column;
+    width: 90%;
+    margin: auto !important;
+  }
+
+  .p-col1 {
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+.testimonial{
+  width: 80% !important;
+  margin: 2rem auto;
+}
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .hero-left h2 {
+    font-size: 4rem;
+    margin-top: 0;
+  }
+
+  .header {
+    height: 80vh;
+  }
+
+  .r-int {
+    width: 100% !important;
+  }
+  .int_right {
+    margin-left: 0;
+  }
+  .int_right {
+    align-items: baseline;
+  }
+
+  .int_left2 {
+    margin-left: 0;
+  }
+  .int_right2 {
+    margin-left: 0;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .header {
+    height: 120vh;
+  }
+
+  .hero-left h2 {
+    margin-top: -4rem;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .nav-item:last-child {
+    margin-right: 2.8rem;
+  }
+
+  .hero-right img {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .r-int {
+    width: 100%;
+  }
+  .int_right {
+    margin-left: 0;
+  }
+
+  .p-col1 {
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  .pricing_row {
+    flex-direction: column;
+    width: 90%;
+    margin: auto !important;
+  }
+
+  .review-row {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    width: 100% !important;
+    padding: 5rem 3rem !important;
+    margin: 2rem 0;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+}
